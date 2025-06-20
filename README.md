@@ -57,7 +57,7 @@ uas_web/
 │   ├── style.css
 │   └── upload.css
 ├── uploads/
-    (berisi foto)
+
 
 ##  Struktur Database
 
