@@ -59,7 +59,7 @@ uas_web/
 ├── uploads/
 │   └── (gambar artikel)
 
-
+```
 
 ##  Struktur Database
 
