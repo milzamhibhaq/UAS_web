@@ -1,0 +1,209 @@
+
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: linear-gradient(to bottom, rgba(224, 242, 254, 0.6), #ffffff);
+      color: #1e293b;
+    }
+    header {
+      background: white;
+      padding: 1.5rem 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #0f172a;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    nav a {
+      color: #334155;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #2563eb;
+    }
+    .logout-link:hover {
+      color: #ef4444;
+    }
+    .hero {
+      padding: 4rem 3rem;
+      background: url('bg-header.jpg') no-repeat center center/cover;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+   
+    .hero-text h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .main {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 2rem;
+      padding: 2rem 3rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1rem;
+    }
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    .card-date {
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+    .sidebar-box {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    
+     .sidebar-box h4 {
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: #e0f2fe;
+  color: #0c4a6e;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+    
+    .sidebar-box ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .sidebar-box ul li {
+      margin-bottom: 0.5rem;
+    }
+    .sidebar-box a {
+      text-decoration: none;
+      color: #2563eb;
+    }
+    .toggle-btn {
+      background: none;
+      color: #2563eb;
+      border: none;
+      padding: 0.5rem 0;
+      font-size: 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .toggle-btn i {
+      font-size: 1rem;
+    }
+    .category-list {
+      display: none;
+    }
+    footer {
+      background: #f1f5f9;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+      border-top: 1px solid #cbd5e1;
+    }
+
+    #kategoriList li a {
+  color: #0f172a; /* hitam default */
+  text-decoration: none;
+  font-weight: normal;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+#kategoriList li a:hover {
+  color: #2563eb;       /* biru saat hover */
+  transform: scale(1.05); /* sedikit membesar saat hover */
+  font-weight: bold;
+}
+
+#kategoriList li a.selected {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.sidebar-box a.admin-btn {
+  display: block;
+  text-align: center;
+  background-color: #0ea5e9;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.sidebar-box a.admin-btn:hover {
+  background-color: #0369a1;
+}
+.card-author {
+  font-size: 0.9rem;
+  color: #475569;
+  margin-top: 0.25rem;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  z-index: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('../uploads/bg-full.jpeg') no-repeat center center / cover;
+  z-index: -2;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(8px);
+  z-index: -1;
+}

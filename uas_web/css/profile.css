@@ -1,0 +1,67 @@
+ body {
+            font-family: 'Inter', sans-serif;
+            background: #f1f5f9;
+            padding: 2rem;
+        }
+        .profile-container {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+        }
+        h2 {
+            margin-bottom: 1rem;
+            color: #0f172a;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 700;
+        }
+        .profile-item {
+            margin-bottom: 1rem;
+        }
+        .label {
+            font-weight: 600;
+            color: #334155;
+        }
+        .value {
+            margin-left: 0.5rem;
+            color: #64748b;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            text-decoration: none;
+            color: #2563eb;
+            font-weight: 600;
+        }
+        form {
+            margin-top: 1rem;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 0.7rem;
+            margin-bottom: 1rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        button {
+            padding: 0.7rem 1.5rem;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .section-title {
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            color: #1e293b;
+        }
+        .message {
+            margin: 1rem 0;
+        }
