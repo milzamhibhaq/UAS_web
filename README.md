@@ -18,19 +18,46 @@ Sistem manajemen konten berbasis web sederhana menggunakan PHP dan MySQL, diranc
 ## Struktur Direktori
 
 bash
-anyar/
-├── index.php               # Halaman utama
-├── login.php               # Form login admin
-├── artikel.php             # Daftar artikel
-├── detail.php              # Detail artikel
-├── edit.php                # Edit artikel
-├── delete_article.php      # Hapus artikel
-├── kategori.php            # Manajemen kategori
-├── kelola_kategori.php     # Form kelola kategori
-├── config.php              # Konfigurasi koneksi database
-├── admin_index.php         # Dashboard admin
-└── ...
-
+uas_web/
+├── admin_index.php
+├── artikel.php
+├── config.php
+├── delete_article.php
+├── delete_author.php
+├── delete_category.php
+├── detail.php
+├── edit.php
+├── edit_author.php
+├── edit_kategori.php
+├── hapus.php
+├── index.php
+├── kategori.php
+├── kelola_kategori.php
+├── login.php
+├── logout.php
+├── navbar.php
+├── penulis.php
+├── profile.php
+├── profil_penulis.php
+├── register.php
+├── upload.php
+├── css/
+│   ├── admin_index.css
+│   ├── artikel.css
+│   ├── detail.css
+│   ├── edit.css
+│   ├── edit_author.css
+│   ├── index.css
+│   ├── kategori.css
+│   ├── kelola_kategori.css
+│   ├── login.css
+│   ├── penulis.css
+│   ├── profile.css
+│   ├── profil_penulis.css
+│   ├── style.css
+│   └── upload.css
+├── uploads/
+    (berisi foto)
 
 ##  Struktur Database
 
