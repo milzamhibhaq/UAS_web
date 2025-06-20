@@ -1,23 +1,23 @@
 # UAS_web
 
-# Sistem Manajemen Artikel 
+# Sistem Manajemen Artikel
 
-Sistem manajemen konten berbasis web sederhana menggunakan PHP dan MySQL, dirancang untuk mengelola artikel, kategori, dan penulis.
+Aplikasi **Content Management System (CMS)** berbasis web menggunakan **PHP** dan **MySQL**, dirancang untuk mengelola artikel, kategori, penulis, dan komentar.
 
-## Fitur Utama
+## ✨ Fitur Utama
 
 - Login multi-role: Admin & Penulis
 - CRUD Artikel (buat, baca, edit, hapus)
 - Sistem Kategori Artikel
 - Manajemen Penulis
-- Komentar artikel
-- Upload gambar artikel
-- Sistem relasi antar artikel, kategori, dan penulis
+- Komentar Artikel
+- Upload Gambar Artikel
+- Relasi antar artikel, kategori, dan penulis
 - Dashboard Admin
-  
-## Struktur Direktori
 
-bash
+## 📁 Struktur Direktori
+
+```bash
 uas_web/
 ├── admin_index.php
 ├── artikel.php
@@ -57,6 +57,8 @@ uas_web/
 │   ├── style.css
 │   └── upload.css
 ├── uploads/
+│   └── (gambar artikel)
+
 
 
 ##  Struktur Database
